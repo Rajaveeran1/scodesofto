@@ -21,7 +21,7 @@ def index(request):
 			message = "\n".join(body.values())
 
 			try:
-				send_mail(subject, message, 'admin@example.com', ['admin@example.com']) 
+				send_mail(subject, message, 'cyberneticr@gmail.com', ['admin@example.com']) 
 			except BadHeaderError:
 				return HttpResponse('Invalid header found.')
 			return redirect ("index")
