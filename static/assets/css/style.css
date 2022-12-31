@@ -1,4 +1,3 @@
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #001233;
@@ -11,7 +10,7 @@ a {
 }
 
 a:hover {
-  
+
   text-decoration: none;
 }
 
@@ -228,7 +227,7 @@ h6 {
   width: 100%;
   color: black;
   transition: 1.0s;
- 
+
 }
 
 
@@ -265,8 +264,8 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: #fff;
-  background-color: #007311;
+  color:black;
+  background-color: #dee4df;
 }
 
 /*--------------------------------------------------------------
@@ -279,24 +278,27 @@ h6 {
   background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
-  
+
 }
 
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+    
+    
+
   }
 }
 
 #hero:before {
   content: "";
-  background-image: linear-gradient(-225deg, #03A9F4  0%, rgb(195 172 235) 30%,rgb(11 233 206 / 50%)100%);
+  background-image: linear-gradient(-225deg, #03A9F4 0%, rgb(195 172 235) 30%, rgb(11 233 206 / 50%)100%);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  
+
 }
 
 
@@ -305,9 +307,9 @@ h6 {
   font-size: 50px;
   font-weight: 700;
   line-height: 56px;
-  color:rgb(1 94 139);
-  font-family: 'Helvetica' ,"Poppins", sans-serif;
- 
+  color: rgb(1 94 139);
+  font-family: 'Helvetica', "Poppins", sans-serif;
+
 
 }
 
@@ -320,7 +322,7 @@ h6 {
 
 #hero p span {
   font-size: 16px;
-  color:  rgb(26, 25, 25);
+  color: rgb(26, 25, 25);
   letter-spacing: 1px;
 }
 
@@ -331,7 +333,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color:  #00acee;
+  color: #00acee;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -339,27 +341,29 @@ h6 {
 
 
 #hero .social-links .facebook {
- 
+
   color: #4267B2;
-  
+
 }
 
 
 #hero .social-links .instagram {
 
-  color: #8a3ab9 ;
-  
+  color: #8a3ab9;
+
 }
 
-#hero .social-links  .linkedin {
-  
-  color: #0077b5 ;
-  
+#hero .social-links .linkedin {
+
+  color: #0077b5;
+
 }
 
 #hero .social-links a:hover {
   color: #FF595A;
 }
+
+
 
 @media (max-width: 992px) {
   #hero {
@@ -369,12 +373,17 @@ h6 {
   #hero h1 {
     font-size: 24px;
     line-height: 36x;
- 
+
   }
+
   #hero p {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+  }
+
+  #hero  {
+    background: #18d26e;
   }
 }
 
@@ -431,9 +440,10 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .hs {
-  color:#009688;
+  color: #009688;
 
 }
+
 .about .content p {
   font-weight: 400px;
   font-size: 16px;
@@ -473,11 +483,11 @@ section {
 # Facts
 --------------------------------------------------------------*/
 .facts .hs {
-  color:#009688;
+  color: #009688;
 }
 
-.facts .count-box .simg{
-width: 35px;
+.facts .count-box .simg {
+  width: 35px;
 }
 
 .facts .count-box {
@@ -486,7 +496,7 @@ width: 35px;
   width: 100%;
   position: relative;
   text-align: center;
-  background:rgb(44 121 158);
+  background: rgb(44 121 158);
   color: #fff;
 }
 
@@ -507,9 +517,10 @@ width: 35px;
 }
 
 .facts .count-box i {
-  color:#FFCC33;
+  color: #FFCC33;
   font-family: Helvetica;
 }
+
 .facts .count-box span {
   font-size: 36px;
   display: block;
@@ -530,14 +541,14 @@ width: 35px;
 # Services
 --------------------------------------------------------------*/
 .services .hs {
-  color:#009688;
+  color: #009688;
 }
 
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background:rgb(44 121 158);
+  background: rgb(44 121 158);
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
@@ -584,8 +595,8 @@ width: 35px;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  color:#adb5bd;
-  text-align: justify,center;
+  color: #adb5bd;
+  text-align: justify, center;
   font-family: " sans-serif, Helvetica Neue", Helvetica;
 }
 
@@ -666,11 +677,11 @@ width: 35px;
   fill: #11dbcf;
 }
 
-.services .iconbox-orange.icon i .simg{
+.services .iconbox-orange.icon i .simg {
   width: 50px;
 }
 
-.services .iconbox-pink .icon i .simg{
+.services .iconbox-pink .icon i .simg {
   width: 50px;
 }
 
@@ -681,7 +692,7 @@ width: 35px;
 # Contact
 --------------------------------------------------------------*/
 .contact .hs {
-  color:#009688;
+  color: #009688;
 }
 
 
@@ -722,11 +733,12 @@ width: 35px;
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
-  
+
 
 }
+
 .contact .email p a,
-.contact .phone p a{
+.contact .phone p a {
   color: #484545;
 
 }
@@ -842,7 +854,7 @@ width: 35px;
 --------------------------------------------------------------*/
 
 #footer {
-  background-image: linear-gradient(-225deg, #03A9F4  0%, rgb(195 172 235) 30%,rgb(11 233 206 / 50%)100%);
+  background-image: linear-gradient(-225deg, #03A9F4 0%, rgb(195 172 235) 30%, rgb(11 233 206 / 50%)100%);
   color: rgb(1 94 139);
   font-size: 14px;
   text-align: center;
@@ -910,18 +922,16 @@ width: 35px;
 
 @keyframes stretch {
   0% {
-      transform: scale(.5);
-      background-color:rgb(1 94 139);
-      border-radius: 100%;
+    transform: scale(.5);
+    background-color: rgb(1 94 139);
+    border-radius: 100%;
   }
 
-  
+
 }
 
 @media (max-width: 991px) {
-  @keyframes stretch {
-    
-}
+  @keyframes stretch {}
 }
 
 /*---------------- portfolio------------------ */
@@ -929,17 +939,19 @@ width: 35px;
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .ph{
-  color:#FF595A ;
+.portfolios .ph {
+  color: #FF595A;
 }
-.testimonials .mp h3{
+
+.testimonials .mp h3 {
   color: #009688;
   font-weight: 600;
 }
 
 .testimonials .section-title .hs {
-  color:#009688;
+  color: #009688;
 }
+
 .testimonials .section-header {
   margin-bottom: 40px;
 }
@@ -954,7 +966,8 @@ width: 35px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 800px;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -981,7 +994,7 @@ width: 35px;
   display: inline-block;
   left: -5px;
   position: relative;
-  
+
 }
 
 .testimonials .testimonial-item .quote-icon-right {
@@ -1020,3 +1033,186 @@ width: 35px;
     width: 80%;
   }
 }
+
+/*--------------------------------------------------------------
+# end portfolio
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Portfolio Details Section
+--------------------------------------------------------------*/
+.portfolio-details h2{
+  color: #009688;
+}
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
+}
+
+.portfolio-details .swiper-button-prev,
+.portfolio-details .swiper-button-next {
+  width: 48px;
+  height: 48px;
+}
+
+.portfolio-details .swiper-button-prev:after,
+.portfolio-details .swiper-button-next:after {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.portfolio-details .swiper-button-prev:hover:after,
+.portfolio-details .swiper-button-next:hover:after {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 575px) {
+
+  .portfolio-details .swiper-button-prev,
+  .portfolio-details .swiper-button-next {
+    display: none;
+  }
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #009688;
+}
+
+.portfolio-details .portfolio-info h3:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  bottom: 0;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.portfolio-details .portfolio-info ul strong {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #9c9c9c;
+  font-size: 16px;
+}
+
+.portfolio-details .portfolio-info ul li a {
+  color: #009688;
+}
+
+.portfolio-details .portfolio-info .btn-visit {
+  padding: 8px 40px;
+  background:#009688;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.portfolio-details .portfolio-info .btn-visit:hover {
+  background: #009d8b;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+.portfolio-details .portfolio-description .testimonial-item {
+  padding: 30px 30px 0 30px;
+  position: relative;
+  height:auto;
+  margin-bottom: 50px;
+}
+
+.portfolio-details .portfolio-description .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50px;
+  border: 6px solid #f0dff4;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.portfolio-details .portfolio-description .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+  padding-top: 20px;
+}
+
+.portfolio-details .portfolio-description .testimonial-item h4 {
+  font-size: 14px;
+  color: #6c757d;
+  margin: 0;
+}
+
+.portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
+.portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
+  color: #009d8b;
+  font-size: 26px;
+  line-height: 0;
+}
+
+.portfolio-details .portfolio-description .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+  transform: scale(-1, -1);
+}
+
+.portfolio-details .portfolio-description .testimonial-item p {
+  font-style: italic;
+  margin: 0 0 15px 0 0 0;
+  padding: 0;
+}
+

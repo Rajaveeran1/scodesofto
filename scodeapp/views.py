@@ -31,5 +31,26 @@ def index(request):
 	#return render(request, "index.html", {'form':form})
 
 
+def portfolio(request):
+    return render(request,'portfolio_details1.html',{})
+
+def portfolio_2(request):
+    return render(request,'portfolio_details2.html',{})
+
+
+def portfolio_3(request):
+    return render(request,'portfolio_details3.html',{})
+
+
+def portfolio_4(request):
+    return render(request,'portfolio_details4.html',{})
+
+
+def portfolio_5(request):
+    return render(request,'portfolio_details5.html',{})
+
+
+def portfolio_6(request):
+    return render(request,'portfolio_details6.html',{})
 	
 
